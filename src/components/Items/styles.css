@@ -1,0 +1,14 @@
+.l-items-container {
+    list-style-type: none;
+    width: 100%;
+    padding: 0px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+
+.l-items-container__item {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}

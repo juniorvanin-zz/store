@@ -2,30 +2,32 @@ import React from 'react';
 
 import { Item } from '../../components/Item';
 
+import './styles.css';
+
 const Items = () => (
-    <ul className="items-list">
-      <li className="item-wrapper">
+    <ul className="l-items-container">
+      <li className="l-items-container__item">
         <Item />
       </li>
-      <li className="item-wrapper">
+      <li className="l-items-container__item">
         <Item />
       </li>
-      <li className="item-wrapper">
+      <li className="l-items-container__item">
         <Item />
       </li>
-      <li className="item-wrapper">
+      <li className="l-items-container__item">
         <Item />
       </li>
-      <li className="item-wrapper">
+      <li className="l-items-container__item">
         <Item />
       </li>
-      <li className="item-wrapper">
+      <li className="l-items-container__item">
         <Item />
       </li>
-      <li className="item-wrapper">
+      <li className="l-items-container__item">
         <Item />
       </li>
-      <li className="item-wrapper">
+      <li className="l-items-container__item">
         <Item />
       </li>
     </ul>

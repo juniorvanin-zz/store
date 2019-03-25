@@ -1,65 +1,57 @@
-
-.item {
+.c-item {
     display: flex;
     flex-direction: column;
     color:#402649;
     text-align: left;
     background-color: #FAFAFA;
   }
-  
-  .item-wrapper {
-    width: 25%;
-    padding: 10px;
-    box-sizing: border-box;
-  }
-  
-  .item-price {
-    font-size: 12px;
-    margin: 6px 0;
-    color: #CF4318;
-  
-  }
-  
-  .item-price-old {
-    text-decoration: line-through;
-    font-size: 12px;
-    color: #aaaaaa;
-  }
-  
-  .item-price-actual {
-    font-weight: 600;
-    font-size: 20px;
-  }
-  
-  .item-content {
-    padding: 15px;
-  }
-  
-  .item-title {
-    font-weight: 200;
-    font-size: 18px;
-    margin-bottom: 5px;
-  }
-  
-  .item-description {
-    font-size: 12px;
-    color: #6E6E6E;
-    margin-top: 5px;
-    line-height: 18px;
-  }
-  
-  .item-image {
-    height: 250px;
-    width: 100%;
-  }
-  
-  .reservation-button {
-    margin: 10px 0;
-    width: 100%;
-    padding: 15px;
-    background-color: #FAFAFA;
-    font-size: 16px;
-    font-weight: 100;
-    border: 0px;
-  }
+
+.c-item__image {
+  height: 250px;
+  width: 100%;
+}
+
+.c-item__content {
+  padding: 15px;
+}
+
+.c-item__price {
+  font-size: 12px;
+  margin: 6px 0;
+  color: #CF4318;
+}
+
+.c-item__price-old {
+  text-decoration: line-through;
+  font-size: 12px;
+  color: #aaaaaa;
+}
+
+.c-item__price-actual {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.c-item__title {
+  font-weight: 200;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.c-item__description {
+  font-size: 12px;
+  color: #6E6E6E;
+  margin-top: 5px;
+  line-height: 18px;
+}
+
+.c-item__reservation-button {
+  margin: 10px 0;
+  width: 100%;
+  padding: 15px;
+  background-color: #FAFAFA;
+  font-size: 16px;
+  font-weight: 100;
+  border: 0px;
+}
   
