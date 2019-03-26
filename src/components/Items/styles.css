@@ -1,14 +1,24 @@
+@import '../../styles/variables';
+
 .l-items-container {
     list-style-type: none;
     width: 100%;
-    padding: 0px 100px;
+    padding: 0px 10px;
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
   }
 
 .l-items-container__item {
-    width: 25%;
+    width: 100%;
     padding: 10px;
     box-sizing: border-box;
+
+    @media all and (min-width:$medium-size) {
+        width: 50%;
+    }
+
+    @media all and (min-width:$large-size) {
+        width: 25%;
+    }
 }
