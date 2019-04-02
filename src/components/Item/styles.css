@@ -1,4 +1,4 @@
-.c-item {
+.item {
   display: flex;
   flex-direction: column;
   color:#402649;
@@ -6,47 +6,47 @@
   background-color: #FAFAFA;
 }
 
-.c-item__image {
+.item__image {
   width: 100%;
 }
 
-.c-item__content {
+.item__content {
   padding: 15px;
   display: flex;
   flex-direction: column;
 }
 
-.c-item__price {
+.item__price {
   font-size: 12px;
   margin: 6px 0;
   color: #CF4318;
 }
 
-.c-item__price-old {
+.item__price-old {
   text-decoration: line-through;
   font-size: 12px;
   color: #aaaaaa;
 }
 
-.c-item__price-actual {
+.item__price-actual {
   font-weight: 600;
   font-size: 20px;
 }
 
-.c-item__title {
+.item__title {
   font-weight: 200;
   font-size: 18px;
   margin-bottom: 5px;
 }
 
-.c-item__description {
+.item__description {
   font-size: 12px;
   color: #6E6E6E;
   margin-top: 5px;
   line-height: 18px;
 }
 
-.c-item__reservation-button {
+.item__reservation-button {
   margin: 10px 0;
   padding: 15px;
   font-size: 16px;
@@ -55,12 +55,12 @@
   color: white;
 }
   
-.c-item__reservation-button--enabled {
+.item__reservation-button--enabled {
   background-color: #716278;
   cursor: pointer;
 }
 
-.c-item__reservation-button--disabled {
+.item__reservation-button--disabled {
   background-color: #a9a9a9;
   cursor: not-allowed;
 }

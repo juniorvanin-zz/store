@@ -1,6 +1,6 @@
 @import '../../styles/variables';
 
-.l-items-container {
+.items-container {
     list-style-type: none;
     width: 100%;
     padding: 0px 10px;
@@ -9,14 +9,10 @@
     box-sizing: border-box;
   }
 
-.l-items-container__item {
-    width: 100%;
+.items-container__item {
+    width: 50%;
     padding: 10px;
     box-sizing: border-box;
-
-    @media all and (min-width:$medium-size) {
-        width: 50%;
-    }
 
     @media all and (min-width:$large-size) {
         width: 25%;

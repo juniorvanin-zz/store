@@ -5,29 +5,29 @@ import { Item } from '../../components/Item';
 import './styles.css';
 
 const Items = () => (
-    <ul className="l-items-container">
-      <li className="l-items-container__item">
+    <ul className="items-container">
+      <li className="items-container__item">
         <Item />
       </li>
-      <li className="l-items-container__item">
+      <li className="items-container__item">
         <Item />
       </li>
-      <li className="l-items-container__item">
+      <li className="items-container__item">
         <Item />
       </li>
-      <li className="l-items-container__item">
+      <li className="items-container__item">
         <Item />
       </li>
-      <li className="l-items-container__item">
+      <li className="items-container__item">
         <Item />
       </li>
-      <li className="l-items-container__item">
+      <li className="items-container__item">
         <Item />
       </li>
-      <li className="l-items-container__item">
+      <li className="items-container__item">
         <Item />
       </li>
-      <li className="l-items-container__item">
+      <li className="items-container__item">
         <Item />
       </li>
     </ul>
